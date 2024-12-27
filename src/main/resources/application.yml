@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: mongodbtest
+
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/testdb?authSource=admin
+      database: testdb
